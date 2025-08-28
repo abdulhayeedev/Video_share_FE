@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://videosharebe-fjbhfzbbcbe9hbd5.canadacentral-01.azurewebsites.net/api";
+const BASE_URL = "https://videosharebe-fjbhfzbbcbe9hbd5.canadacentral-01.azurewebsites.net/api/";
 
 export async function fetchVideos() {
   const token = localStorage.getItem("access");
